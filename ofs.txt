@@ -1,12 +1,12 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-5b077c09380f4fe6";
+    inline std::string ClientVersion = "version-f8f53a67efca4c34";
 
     namespace AnimationTrack {
          inline constexpr uintptr_t Animation = 0xd0;
          inline constexpr uintptr_t Animator = 0x118;
-         inline constexpr uintptr_t IsPlaying = 0x2bd;
+         inline constexpr uintptr_t IsPlaying = 0x28f;
          inline constexpr uintptr_t Looped = 0xf5;
          inline constexpr uintptr_t Speed = 0xe4;
     }
@@ -15,7 +15,7 @@ namespace Offsets {
          inline constexpr uintptr_t AssemblyAngularVelocity = 0xfc;
          inline constexpr uintptr_t AssemblyLinearVelocity = 0xf0;
          inline constexpr uintptr_t Color3 = 0x194;
-         inline constexpr uintptr_t Material = 0x228;
+         inline constexpr uintptr_t Material = 0x0;
          inline constexpr uintptr_t Position = 0x12c;
          inline constexpr uintptr_t Primitive = 0x148;
          inline constexpr uintptr_t PrimitiveFlags = 0x1ae;
@@ -59,11 +59,11 @@ namespace Offsets {
     }
 
     namespace FFlags {
-         inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x67ae7a0;
+         inline constexpr uintptr_t DebugDisableTimeoutDisconnect = 0x67ae7d0;
          inline constexpr uintptr_t EnableLoadModule = 0x679d8f8;
          inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x676ca70;
          inline constexpr uintptr_t TaskSchedulerTargetFps = 0x74c0e6c;
-         inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x67bb778;
+         inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x67bb7a8;
     }
 
     namespace FakeDataModel {
@@ -74,7 +74,7 @@ namespace Offsets {
     namespace GuiObject {
          inline constexpr uintptr_t BackgroundColor3 = 0x550;
          inline constexpr uintptr_t BorderColor3 = 0x55c;
-         inline constexpr uintptr_t Image = 0xa48;
+         inline constexpr uintptr_t Image = 0xa20;
          inline constexpr uintptr_t LayoutOrder = 0x58c;
          inline constexpr uintptr_t Position = 0x520;
          inline constexpr uintptr_t RichText = 0xae0;
@@ -199,7 +199,7 @@ namespace Offsets {
          inline constexpr uintptr_t Enabled = 0x156;
          inline constexpr uintptr_t GamepadKeyCode = 0x13c;
          inline constexpr uintptr_t HoldDuration = 0x140;
-         inline constexpr uintptr_t KeyCode = 0x9f;
+         inline constexpr uintptr_t KeyCode = 0x144;
          inline constexpr uintptr_t MaxActivationDistance = 0x148;
          inline constexpr uintptr_t ObjectText = 0xf0;
          inline constexpr uintptr_t RequiresLineOfSight = 0x157;
