@@ -64,6 +64,7 @@ namespace Offsets {
          inline constexpr uintptr_t PartyPlayerInactivityTimeoutInSeconds = 0x67e4a70;
          inline constexpr uintptr_t TaskSchedulerTargetFps = 0x753b0f8;
          inline constexpr uintptr_t WebSocketServiceEnableClientCreation = 0x6833c78;
+         inline constexpr uintptr_t NextGenReplicatorEnabledWrite4 = 0x6869508;
     }
 
     namespace FakeDataModel {
